@@ -4,6 +4,9 @@ attribute :name,
   :kind_of        => String,
   :regex          => /^[\w-]+$/
 
+attribute :options,
+  :kind_of => String
+
 attribute :casked,
   :kind_of => [TrueClass, FalseClass]
 
